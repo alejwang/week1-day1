@@ -1,48 +1,112 @@
 header {
-            background: url(images/central_park.jpg) no-repeat 0 -200px;
-            background-size: 1500px;
-            height: 400px;
-            padding: 100px 0 0 100px;
-            font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        li {
-            list-style-type: none;
-            display: inline;
-            padding: 0 20px;
-        }
-        li a {
-            text-decoration: none;
-        }
-        li a:link {
-            color: #000; /* Z link */
-        }
-        li a:visited {
-            color: #818db3; /* V link */
-        }
-        li a:hover {
-            color: #333; /* H link */
-        }
-        li a:active {
-            color: #753a30; /* A link */
-        }
-        nav {
-            background-color: rgb(255, 245, 238);
-            padding-top: 2px;
-            text-align: center;
-            height: 50px;
-        }
-        main {
-            /* height: 400px; */
-        }
-        main h1 {
-            color: rgb(129, 141, 179);
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        footer {
-            height: 40px;
-            background-color: rgb(129, 141, 179);
-            text-align: center;
-            padding-top: 20px;
-            color: rgb(211, 218, 240);
-        }
+    background: url(images/central_park.jpg) no-repeat 0 -200px;
+    background-size: 1500px;
+    height: 400px;
+    padding: 100px 0 0 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:link {
+    color: #000;
+    /* Z link */
+}
+
+li a:visited {
+    color: #818db3;
+    /* V link */
+}
+
+li a:hover {
+    color: #333;
+    /* H link */
+}
+
+li a:active {
+    color: #753a30;
+    /* A link */
+}
+
+nav {
+    background-color: rgb(255, 245, 238);
+    padding-top: 2px;
+    text-align: center;
+    height: 50px;
+}
+
+main {
+    /* height: 400px; */
+    margin: 50px;
+}
+
+main h1 {
+    color: rgb(129, 141, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin-top: 35px;
+}
+
+table,
+caption,
+th,
+td {
+    border: 1px solid #000;
+}
+
+th,
+td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="radio"] {
+    width: 25px;
+}
+
+textarea {
+    width: 300px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+}
+
+footer {
+    height: 40px;
+    background-color: rgb(129, 141, 179);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211, 218, 240);
+}
